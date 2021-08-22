@@ -1,0 +1,99 @@
+/* /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap'); */
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  background-color: #283149;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: aquamarine;
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-family: "Arvo", cursive;
+}
+
+label {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.character-amount {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  width: 2rem;
+}
+
+.password {
+  background-color: white;
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+}
+
+.btn {
+  grid-column: span 2;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #ffffff33;
+  cursor: pointer;
+}
+
+.copy {
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-family: serif;
+  font-style: oblique;
+}
+
+.copy:hover {
+  background-color: #ffffff33;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

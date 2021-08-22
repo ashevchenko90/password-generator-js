@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Passwords</title>
+</head>
+
+<body>
+    <script src="script.js" defer></script>
+    <div class="container">
+        <h1 class="title">Password Generator</h1>
+        <h3 class="password" id="display">password</h3>
+
+        <form id="passGeneratorForm" class="form">
+            <label for="charAmountNumber">Number of Characters</label>
+            <div class="character-amount">
+                <input type="range" name="" id="charAmountRange" min="1" max="50" value="10">
+                <input type="number" class="number-input" id="charAmountNumber" min="1" max="50" value="10">
+            </div>
+
+            <label for="uppercase">Uppercase</label>
+            <input type="checkbox" id="uppercase">
+            <label for="numbers">Numbers</label>
+            <input type="checkbox" id="numbers">
+            <label for="symbols">Symbols</label>
+            <input type="checkbox" id="symbols">
+            <button class="btn" type="submit">Generate</button>
+
+        </form>
+        <button class="copy hide" id="copy">Copy to Clipboard</button>
+    </div>
+
+</body>
+
+</html>
